@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+  font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+}
+.menu{
+  position: absolute;
+  width: 100%;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav a {
+   color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size : 13px;
+  padding-right: 30px;
+  font-family: AvenirLTStd-Book, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+   
+}
+a:hover {
+  color: #ffaa40;
+  text-decoration: none;
+}
+.banner{
+    background-image: url("https://cdn.shopify.com/s/files/1/0781/0385/files/Master_2_1500x.jpg?v=1592780923");
+  background-repeat : no-repeat;
+background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  font-family: "Playfair Display", "Helvetica", "Arial", sans-serif;
+  align-items: center;
+  font-size: 64px;
+  line-height: 72px;
+  padding: 60px 0 115px 25px;
+  color: white;
+}
+
+span{
+  color: #ffaa40;
+}
+
+img{
+  width : 100% ;
+}
+
+
+/*RIGHT WAY TO DO ALIGN 2 ITEMS NEXT TO EACH OTHER */
+
+.row{
+  display :flex;
+  flex-direction: row;
+}
+.item1{
+flex-basis : 50%;
+}
+
+.item2{
+  flex-basis : 50%;
+}
+
+.contenu {
+  padding : 40px;
+  text-align: center;
+  align-self: center;
+}
